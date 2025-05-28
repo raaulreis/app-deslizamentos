@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 🌧️ App de Monitoramento de Riscos de Deslizamentos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto foi desenvolvido como parte da disciplina **Advanced Programming And Mobile Dev**, com foco na simulação de uma rede de sensores inteligentes para previsão de deslizamentos, inspirado em iniciativas como o **Alerta Rio** e os **Early Warning Systems**.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Funcionalidades
 
-   ```bash
-   npm install
-   ```
+O aplicativo mobile permite:
 
-2. Start the app
+- Monitorar indicadores como **umidade do solo** e **inclinação**
+- Prever riscos de deslizamentos com base em critérios técnicos
+- Emitir **alertas visuais** sobre áreas vulneráveis
+- Armazenar localmente os dados inseridos
+- Consultar o histórico completo de monitoramento
+- Visualizar ações práticas de **mitigação de riscos**
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧩 Estrutura do App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O app possui 5 telas principais:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Tela de Boas-vindas** – mensagem inicial e navegação
+2. **Tela de Inserção de Dados Ambientais** – coleta de umidade e inclinação
+3. **Tela de Visualização de Riscos** – alerta baseado no último dado
+4. **Tela de Histórico de Monitoramento** – lista de registros anteriores
+5. **Tela de Ações de Mitigação** – sugestões preventivas para áreas de risco
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 💾 Tecnologias Utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- `AsyncStorage` para armazenamento local
+- `expo-router` para navegação entre as telas
+
+---
+
+## 🚀 Como executar localmente
 
 ```bash
-npm run reset-project
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta
+cd seu-repositorio
+
+# Instale as dependências
+npm install
+
+# Rode o app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 👤 Desenvolvedor
 
-To learn more about developing your project with Expo, look at the following resources:
+**Raul Reis**  
+Aluno da FIAP  
+Disciplina: Advanced Programming And Mobile Dev
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📜 Licença
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto é de uso acadêmico e sem fins lucrativos.
