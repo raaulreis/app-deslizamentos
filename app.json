@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app-monitoramento-riscos",
-    "slug": "app-monitoramento-riscos",
+    "name": "DeslizamentosApp",
+    "slug": "DeslizamentosApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "appmonitoramentoriscos",
+    "scheme": "deslizamentosapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
