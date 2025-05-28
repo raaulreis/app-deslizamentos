@@ -58,8 +58,8 @@ npx expo start
 
 ## 👤 Desenvolvedor
 
-**Raul Reis**  
-Aluno da FIAP  
+**Raul Prado Reis**  
+Aluno da FIAP - RM: 99270 
 Disciplina: Advanced Programming And Mobile Dev
 
 ---
